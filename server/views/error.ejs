@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IKEA-error response</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+            background: #f8f8f8;
+        }
+
+        .messageWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .messageContent {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .messageContent .msgIcon img {
+            width: 16vw;
+            margin: 0 0 4.5vh 0;
+        }
+
+        .messageContent .msg {
+            font-size: 6vh;
+            color: #969696;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="messageWrapper">
+        <div class="messageContent">
+            <span class="msgIcon">
+                <img src="/image/static-images/warning.svg" />
+            </span>
+            <span class="msg">
+                <%= message %>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
