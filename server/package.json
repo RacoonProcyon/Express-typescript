@@ -34,7 +34,7 @@
     "@types/stripe": "^5.0.13",
     "@types/winston": "^2.3.9",
     "aws-sdk": "^2.287.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "busboy": "^0.3.1",
     "compression": "^1.7.3",
